@@ -1,8 +1,8 @@
 # GcdSolution, ArmstrongSolution, LCMSolution, Divisors
 # from math_utils import Prime
 
-# PrintName, PrintNum, PrintNumReverse
-from recursion import PrintSum
+# PrintName, PrintNum, PrintNumReverse, PrintSum
+from recursion import Factorial
 
 if __name__ == "__main__":
     # gcd = GcdSolution()
@@ -13,7 +13,8 @@ if __name__ == "__main__":
     # name = PrintName()
     # num = PrintNum()
     # reverse_num = PrintNumReverse()
-    sum = PrintSum()
+    # sum = PrintSum()
+    fact = Factorial()
 
     # print(gcd.GCD(48, 18))
     # print(arm.isArmstrong(123))
@@ -23,4 +24,5 @@ if __name__ == "__main__":
     # name.printName(1, 3)
     # num.printNum(1,5)
     # reverse_num.printNumReverse(5, 1)
-    print(sum.printSum(5))
+    # print(sum.printSum(5))
+    print(fact.factorial(3))
