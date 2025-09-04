@@ -1,8 +1,8 @@
 # GcdSolution, ArmstrongSolution, LCMSolution, Divisors
 # from math_utils import Prime
 
-# PrintName
-from recursion import PrintNum
+# PrintName, PrintNum
+from recursion import PrintNumReverse
 
 if __name__ == "__main__":
     # gcd = GcdSolution()
@@ -11,7 +11,8 @@ if __name__ == "__main__":
     # div = Divisors()
     # prime = Prime()
     # name = PrintName()
-    num = PrintNum()
+    # num = PrintNum()
+    reverse_num = PrintNumReverse()
 
     # print(gcd.GCD(48, 18))
     # print(arm.isArmstrong(123))
@@ -19,4 +20,5 @@ if __name__ == "__main__":
     # print(div.divisors(8))
     # print(prime.isPrime(11))
     # name.printName(1, 3)
-    num.printNum(1,5)
+    # num.printNum(1,5)
+    reverse_num.printNumReverse(5, 1)
