@@ -2,7 +2,9 @@
 # from math_utils import Prime
 
 # PrintName, PrintNum, PrintNumReverse, PrintSum, Factorial
-from recursion import ReverseArray
+# from recursion import ReverseArray
+
+from hash import CountFrequencies
 
 if __name__ == "__main__":
     # gcd = GcdSolution()
@@ -15,7 +17,8 @@ if __name__ == "__main__":
     # reverse_num = PrintNumReverse()
     # sum = PrintSum()
     # fact = Factorial()
-    r_arr = ReverseArray()
+    # r_arr = ReverseArray()
+    c_freq = CountFrequencies()
 
     # print(gcd.GCD(48, 18))
     # print(arm.isArmstrong(123))
@@ -28,6 +31,9 @@ if __name__ == "__main__":
     # print(sum.printSum(5))
     # print(fact.factorial(3))
 
-    arr = [1, 2, 3, 4, 5]
-    r_arr.reverse_arr(arr, 0, len(arr) - 1)
-    print(arr)
+    # arr = [1, 2, 3, 4, 5]
+    # r_arr.reverse_arr(arr, 0, len(arr) - 1)
+    # print(arr)
+
+    arr = [1, 2, 2, 1, 3]
+    print(c_freq.countFrequencies(arr))
